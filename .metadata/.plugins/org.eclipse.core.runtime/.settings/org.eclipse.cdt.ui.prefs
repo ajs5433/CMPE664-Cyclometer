@@ -1,0 +1,11 @@
+#Fri May 12 02:46:27 EDT 2017
+useQuickDiffPrefPage=true
+wizard.preferred.toolchains=com.qnx.qcc.toolChain com.qnx.qcc.toolChain.exe.coverage com.qnx.qcc.toolChain.sharedLib.coverage com.qnx.qcc.toolChain.staticLib.coverage
+useAnnotationsPrefPage=true
+sourceHoverBackgroundColor=255,255,225
+MemberFilterActionGroup.COutlineViewer.4=true
+MemberFilterActionGroup.COutlineViewer.2=true
+MemberFilterActionGroup.COutlineViewer.1=true
+spelling_locale_initialized=true
+MemberFilterActionGroup.COutlineViewer.16=true
+eclipse.preferences.version=1

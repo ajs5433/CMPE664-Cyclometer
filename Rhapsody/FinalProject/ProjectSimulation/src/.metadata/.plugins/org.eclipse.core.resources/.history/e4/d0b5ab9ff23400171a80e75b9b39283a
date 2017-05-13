@@ -1,0 +1,11 @@
+
+
+class magneticSensorAnalyzer
+{
+	void test()
+	{
+		std::cout<<"printing"<<std::endl;
+
+	}
+
+}

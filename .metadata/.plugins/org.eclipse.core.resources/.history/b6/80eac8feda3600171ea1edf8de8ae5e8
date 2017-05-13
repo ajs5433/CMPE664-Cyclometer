@@ -1,0 +1,16 @@
+/*
+ * magneticSensorAnalyzer.cpp
+ *
+ *  Created on: May 9, 2017
+ *      Author: ajs5433
+ */
+
+#include <iostream>
+
+class magneticSensorAnalyzer
+{
+	void test()
+	{
+		std::cout<<"printing"<<std::endl;
+	}
+};

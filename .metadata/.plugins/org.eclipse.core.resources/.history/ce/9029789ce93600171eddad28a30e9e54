@@ -1,0 +1,84 @@
+#include <cstdlib>
+#include <iostream>
+#include "magneticSensorAnalyzer.h"
+#include <stdlib.h>				/*Exit and exit failure*/
+
+
+
+#define BASE_ADDR 		0x280
+#define PORTA 			(BASE_ADDR + 8)
+#define PORTB 			(BASE_ADDR + 9)
+
+#define fullReset 	0
+#define running 	1
+#define measureOff	2
+
+void initialization();
+void setUnitMeasure();
+void setBikeCircumference();
+
+int main(int argc, char *argv[]) {
+
+	int privity_err;
+
+	/*SETUP PROCESS*/
+	privity_err = ThreadCtl( _NTO_TCTL_IO, NULL );
+	if ( privity_err == -1 ){
+		printf( "Can't get root permissions\n" );
+		return -1;
+	}
+
+	dir_ctrl = mmap_device_io(PORT_LENGTH, DIR_CTRL);
+	PORT_A = mmap_device_io( PORT_LENGTH, PORTA );
+	PORT_B = mmap_device_io( PORT_LENGTH, PORTB );
+
+	out8(dir_ctrl, 0x01);
+	out8( PORT_A, LOW );
+
+	magneticSensorAnalyzer mySensor;
+	display myDisplay;
+	buttonInputAnalyzer myButtons;
+
+	int current_state = fullReset;
+
+	/*
+	 * setup process here
+	 * */
+
+	while(true)
+	{
+		switch(current_state){
+		case(fullReset):
+				initialization();
+				setUnitMeasure();
+				setBikeCircumference();
+
+				break;
+		case(running):
+				break;
+		case(measureOff):
+				break;
+		default:
+			std::cout<<"ERROR!!\nUndetermined State, ending program"<<std::endl;
+			exit(0);
+		}
+	}
+
+	return EXIT_SUCCESS;
+}
+
+void initialization()
+{
+
+}
+
+void setUnitMeasure()
+{
+
+}
+
+void setBikeCircumference()
+{
+
+}
+

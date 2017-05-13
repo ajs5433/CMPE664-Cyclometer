@@ -1,0 +1,18 @@
+/*
+ * magneticSensorAnalyzer.cpp
+ *
+ *  Created on: May 9, 2017
+ *      Author: ajs5433
+ */
+
+#include <iostream>
+#include "buttonInputAnalyzer.h"
+
+
+class buttonInputAnalyzer
+{
+	void test()
+	{
+		std::cout<<"printing"<<std::endl;
+	}
+};

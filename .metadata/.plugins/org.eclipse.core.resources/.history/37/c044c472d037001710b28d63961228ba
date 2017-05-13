@@ -1,0 +1,22 @@
+/*
+ * buttonInputAnalyzer.h
+ *
+ *  Created on: May 12, 2017
+ *      Author: ajs5433
+ */
+#include "display.h"
+
+#ifndef BUTTONINPUTANALYZER_H_
+#define BUTTONINPUTANALYZER_H_
+class buttonInputAnalyzer
+{
+	display myDisplay;
+	int buttonMode;
+	int buttonSet;
+
+	void test();
+	void buttonInputAnalyzer();
+	void assignDisplay(display d);
+};
+
+#endif /* BUTTONINPUTANALYZER_H_ */

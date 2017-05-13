@@ -1,0 +1,29 @@
+/*
+ * magneticSensorAnalyzer.cpp
+ *
+ *  Created on: May 9, 2017
+ *      Author: ajs5433
+ */
+
+#include <iostream>
+#include "buttonInputAnalyzer.h"
+
+class buttonInputAnalyzer
+{
+	struct buttonMode{
+
+	}
+
+	struct buttonSet{
+
+	}
+
+	display myDisplay;
+
+	void assignDisplay(display d)
+	{
+		myDisplay = d;
+		std::cout<<"printing"<<std::endl;
+	}
+
+};

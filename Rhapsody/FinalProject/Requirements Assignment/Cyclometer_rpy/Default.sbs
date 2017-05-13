@@ -1,0 +1,458 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID 943f1f97-2a03-47c8-ae50-21d0b21bbc73;
+	- _myState = 8192;
+	- _name = "Default";
+	- _modifiedTimeWeak = 4.13.2017::20:9:50;
+	- _lastID = 11;
+	- weakCGTime = 4.13.2017::20:9:50;
+	- strongCGTime = 4.12.2017::18:58:2;
+	- _defaultComposite = GUID 32ebfd4a-9e14-4c77-986f-05409fb7a2dc;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 32ebfd4a-9e14-4c77-986f-05409fb7a2dc;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 4.12.2017::19:2:46;
+			- weakCGTime = 4.12.2017::19:2:46;
+			- strongCGTime = 4.12.2017::18:58:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ IActor 
+			- _id = GUID 5ae5354c-dc5f-478f-a1f6-7027786adcf8;
+			- _myState = 8192;
+			- _name = "MODE Button";
+			- _modifiedTimeWeak = 4.12.2017::18:58:2;
+			- weakCGTime = 4.12.2017::18:58:2;
+			- strongCGTime = 4.12.2017::18:58:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID c643453c-de44-4de0-a574-08631076221d;
+					- _myState = 10240;
+					- _name = "itsSetup";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Setup";
+						- _id = GUID ca6445b2-0c9b-4064-81ec-a8c15ada266b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Setup";
+						- _name = "itsMODE Button";
+						- _id = GUID 06cfa0d4-1e5c-4af1-8e11-8bc7aa4c8e98;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 60f701ff-9401-440a-81f5-1bfab1ef5af4;
+					- _myState = 10240;
+					- _name = "itsSet Mode";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Set Mode";
+						- _id = GUID 487ae542-7725-4b27-8669-fbe21347cd41;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Set Mode";
+						- _name = "itsMODE Button";
+						- _id = GUID e866d4a2-4924-4ace-a82e-561451dc2f1e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 57086d51-3a5a-411b-8341-7558d7f5c498;
+					- _myState = 10240;
+					- _name = "itsData Reset";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Data Reset";
+						- _id = GUID c3da864f-47dc-49be-8e08-39c24e15dbb3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Data Reset";
+						- _name = "itsMODE Button";
+						- _id = GUID d2272818-66d6-4aab-b23e-089816a0e6cf;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 88b5d2d2-3d74-4bb7-b49e-dcbcd6acd64a;
+			- _myState = 8192;
+			- _name = "SET Button";
+			- _modifiedTimeWeak = 4.12.2017::18:58:2;
+			- weakCGTime = 4.12.2017::18:58:2;
+			- strongCGTime = 4.12.2017::18:58:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 0203ac24-5901-4be4-b6d2-ef4c40e0f321;
+					- _myState = 10240;
+					- _name = "itsSet Mode";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Set Mode";
+						- _id = GUID 487ae542-7725-4b27-8669-fbe21347cd41;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Set Mode";
+						- _name = "itsSET Button";
+						- _id = GUID bd119d26-0f64-4453-8b5e-7116f6b5aae8;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID e98add04-8bd4-4d54-a5fd-0429bdca11ec;
+			- _myState = 8192;
+			- _name = "Display";
+			- _modifiedTimeWeak = 4.12.2017::18:58:2;
+			- weakCGTime = 4.12.2017::18:58:2;
+			- strongCGTime = 4.12.2017::18:58:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 09d1a167-9592-40a6-9835-409ebde029c6;
+					- _myState = 10240;
+					- _name = "itsStart-Stop Measuing";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Start-Stop Measuing";
+						- _id = GUID 7a03d6f8-af40-4701-b7c8-716eb51ff71f;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Start-Stop Measuing";
+						- _name = "itsDisplay";
+						- _id = GUID d15c935b-d8ab-462f-91f4-0bfb3d1b3c62;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID f328b944-5b7d-4a51-80e5-3ad702348bdb;
+					- _myState = 10240;
+					- _name = "itsUpdating Speed";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Updating Speed";
+						- _id = GUID 859e3da0-e331-446e-bd13-23d358d4a676;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Updating Speed";
+						- _name = "itsDisplay";
+						- _id = GUID 830f7616-cfd5-4eb4-9a1d-c73c7a2cc914;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 73e8f7b9-efce-4e3e-a4e1-ac50ee48ae9e;
+					- _myState = 10240;
+					- _name = "itsSetup";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Setup";
+						- _id = GUID ca6445b2-0c9b-4064-81ec-a8c15ada266b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Setup";
+						- _name = "itsDisplay";
+						- _id = GUID beef5be0-dded-4dc9-a091-b347bcc108d4;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d2911780-b302-473d-b27a-27269b7cff8b;
+					- _myState = 10240;
+					- _name = "itsData Reset";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Data Reset";
+						- _id = GUID c3da864f-47dc-49be-8e08-39c24e15dbb3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Data Reset";
+						- _name = "itsDisplay";
+						- _id = GUID f5c340c2-4a11-436d-a76e-d8ee6b610e13;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 50fbf6c6-d655-4e6a-83c8-b761fb8253b1;
+					- _myState = 10240;
+					- _name = "itsSet Mode";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Set Mode";
+						- _id = GUID 487ae542-7725-4b27-8669-fbe21347cd41;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Set Mode";
+						- _name = "itsDisplay";
+						- _id = GUID b24b4b52-7755-464f-a9c4-0e1f3a6d4d8c;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 84e5549c-b2db-4b9d-8cb5-067b67332ff8;
+			- _myState = 8192;
+			- _name = "Magnetic Sensor";
+			- _modifiedTimeWeak = 4.12.2017::18:58:2;
+			- weakCGTime = 4.12.2017::18:58:2;
+			- strongCGTime = 4.12.2017::18:58:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID a4f5ebeb-4edb-4250-a357-65e041a31635;
+					- _myState = 10240;
+					- _name = "itsPower Saving Mode On";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Power Saving Mode On";
+						- _id = GUID 93dfe774-7b12-4ead-bd9f-a1e2d6bc98d5;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Power Saving Mode On";
+						- _name = "itsMagnetic Sensor";
+						- _id = GUID 4bc8b670-1bf5-4327-ba2c-b0d1b318eae5;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 8428d1e5-6227-4364-b88f-2ea562c304a5;
+					- _myState = 10240;
+					- _name = "itsUpdating Speed";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Updating Speed";
+						- _id = GUID 859e3da0-e331-446e-bd13-23d358d4a676;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Updating Speed";
+						- _name = "itsMagnetic Sensor";
+						- _id = GUID e8094b62-05f0-426d-be48-871574fc6de9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 2dc59cf9-0327-41e4-a5c4-df9b8b17f1fe;
+			- _myState = 8192;
+			- _name = "System Memory";
+			- _modifiedTimeWeak = 4.12.2017::18:58:2;
+			- weakCGTime = 4.12.2017::18:58:2;
+			- strongCGTime = 4.12.2017::18:58:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 0e892fa1-7cd3-45af-9e64-f4dbb4e195b9;
+					- _myState = 10240;
+					- _name = "itsSetup";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Setup";
+						- _id = GUID ca6445b2-0c9b-4064-81ec-a8c15ada266b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Setup";
+						- _name = "itsSystem Memory";
+						- _id = GUID cdfb60e1-3709-4086-b837-98b864d6e65a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d5016f4a-25d2-4b7f-9cc7-754b054aa71c;
+					- _myState = 10240;
+					- _name = "itsData Reset";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "";
+						- _name = "Data Reset";
+						- _id = GUID c3da864f-47dc-49be-8e08-39c24e15dbb3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Cateye_Cyclometer.sbs";
+						- _subsystem = "Cateye_Cyclometer";
+						- _class = "Data Reset";
+						- _name = "itsSystem Memory";
+						- _id = GUID aa8d1e53-c70b-44ec-a946-8dbeca2b46cb;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

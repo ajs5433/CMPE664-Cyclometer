@@ -1,0 +1,26 @@
+/*
+ * display.h
+ *
+ *  Created on: May 12, 2017
+ *      Author: ajs5433
+ */
+
+#ifndef DISPLAY_H_
+#define DISPLAY_H_
+
+#define displayValues	0
+#define displayClock	1
+
+class display
+{
+	int status = displayClock;
+
+	display();
+
+	void *ledPWM(void *object);
+	void setDisplayMode();
+	void setSpeed();
+	void activateDisplay();
+
+};
+#endif /* DISPLAY_H_ */

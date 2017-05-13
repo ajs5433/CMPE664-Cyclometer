@@ -1,0 +1,38 @@
+/*
+ * magneticSensorAnalyzer.cpp
+ *
+ *  Created on: May 9, 2017
+ *      Author: ajs5433
+ */
+
+#include <iostream>
+#include "display.h"
+#include <sys/neutrino.h>
+
+void *ledPWM(void *object)
+{
+
+	return NULL;
+}
+
+display()
+{
+	status = displayClock;
+
+	std::cout<<"creating display"<<std::endl;
+
+	int frequency_thread;
+	frequency_thread = ThreadCreate(0, &ledPWM, NULL, NULL);
+}
+
+void setDisplayMode(){
+
+}
+
+void setSpeed(){
+
+}
+
+void activateDisplay(){
+	status = displayValues;
+}

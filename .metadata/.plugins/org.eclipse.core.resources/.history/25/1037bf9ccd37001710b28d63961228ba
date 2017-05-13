@@ -1,0 +1,15 @@
+/*
+ * buttonInputAnalyzer.h
+ *
+ *  Created on: May 12, 2017
+ *      Author: ajs5433
+ */
+
+#ifndef BUTTONINPUTANALYZER_H_
+#define BUTTONINPUTANALYZER_H_
+class buttonInputAnalyzer
+{
+	void test();
+};
+
+#endif /* BUTTONINPUTANALYZER_H_ */

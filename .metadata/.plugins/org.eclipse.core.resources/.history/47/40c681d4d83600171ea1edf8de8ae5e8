@@ -1,0 +1,13 @@
+#include <cstdlib>
+#include <iostream>
+#include "magneticSensorAnalyzer.h"
+
+int main(int argc, char *argv[]) {
+	std::cout << "Welcome to the QNX Momentics IDE" << std::endl;
+
+	magneticSensorAnalyzer sensor;
+	sensor.test();
+
+	return EXIT_SUCCESS;
+}
+

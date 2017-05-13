@@ -1,0 +1,60 @@
+#include <cstdlib>
+#include <iostream>
+#include "magneticSensorAnalyzer.h"
+
+#define fullReset 	0
+#define running 	1
+#define measureOff	2
+
+
+
+void initialization()
+{
+
+}
+
+void setUnitMeasure()
+{
+
+}
+
+void setBikeCircumference()
+{
+
+}
+
+int main(int argc, char *argv[]) {
+	std::cout << "Welcome to the QNX Momentics IDE" << std::endl;
+
+	magneticSensorAnalyzer mySensor;
+	display myDisplay;
+	buttonInputAnalyzer myButtons;
+
+	int current_state = fullReset;
+
+	/*
+	 * setup process here
+	 * */
+
+	while(true)
+	{
+		switch(current_state){
+		case(fullReset):
+				initialization();
+				setUnitMeasure();
+				setBikeCircumference();
+
+				break;
+		case(running):
+				break;
+		case(measureOff):
+				break;
+		default:
+			std::cout<<"ERROR!!\nUndetermined State, ending program"<<std::endl;
+			system.exit(0);
+		}
+	}
+
+	return EXIT_SUCCESS;
+}
+
