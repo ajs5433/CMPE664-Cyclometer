@@ -30,7 +30,7 @@
 #define measureOff	2
 
 magneticSensorAnalyzer mySensor;
-//display myDisplay;
+display myDisplay(1000);
 buttonInputAnalyzer myButtons;
 
 void initialization();
@@ -41,11 +41,9 @@ uintptr_t dir_ctrl, PORT_A, PORT_B;
 
 int main(int argc, char *argv[]) {
 
-	mySensor.test();
+	/*SETUP PROCESS*/
 
 	int privity_err;
-
-	/*SETUP PROCESS*/
 	privity_err = ThreadCtl( _NTO_TCTL_IO, NULL );
 	if ( privity_err == -1 ){
 		printf( "Can't get root permissions\n" );
@@ -59,11 +57,15 @@ int main(int argc, char *argv[]) {
 	out8(dir_ctrl, 0x01);
 	out8( PORT_A, LOW );
 
+	/*Initialization*/
+	//myDisplay = new display();
+	//myButtons = new buttonInputAnalyzer();
+	//mySensor = new magneticSensorAnalyzer();
+
 	int current_state = fullReset;
 
-	/*
-	 * setup process here
-	 * */
+
+
 
 	while(true)
 	{

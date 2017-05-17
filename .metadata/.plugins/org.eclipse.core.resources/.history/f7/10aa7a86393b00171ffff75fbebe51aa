@@ -1,0 +1,55 @@
+/*
+ * display.h
+ *
+ *  Created on: May 12, 2017
+ *      Author: ajs5433
+ */
+#ifndef DISPLAY_H_
+#define DISPLAY_H_
+
+/*Defines shared between classes*/
+#define LOW 			0x00
+#define HIGH 			0xFF
+#define BASE_ADDR 		0x280
+#define PORTA 			(BASE_ADDR + 8)
+#define PORTB 			(BASE_ADDR + 9)
+#define DIR_CTRL 		(BASE_ADDR + 11)
+
+/*Specific defines for the Display*/
+#define displaySpeed	0
+#define displayClock	1
+#define Anode0			6
+#define Anode1			8
+#define Anode2			10
+#define Anode3			12
+
+class display
+{
+	int displayMode;
+
+	//these values hold the integer that will be used by the display thread
+	int valueDisplay1;
+	int valueDisplay2;
+	int valueDisplay3;
+	int valueDisplay4;
+
+	//Threads
+	int updateDisplays;
+
+public:
+		display();
+
+		threads;
+		void *displayValues(void *object);
+
+		//set displays to be called from other functions
+		void setDisplayMode();
+		void setSpeed();
+
+		void displaySpeedOn();
+		void displaySpeedOff();
+
+		void updateEightSegmentD(int displayID, int value);
+
+};
+#endif /* DISPLAY_H_ */

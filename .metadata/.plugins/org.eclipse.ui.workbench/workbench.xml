@@ -43,33 +43,33 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="finalProject.cc" partName="finalProject.cc" path="C:/Users/ajs5433/Desktop/Program/finalProject/finalProject.cc" title="finalProject.cc" tooltip="finalProject/finalProject.cc" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="finalProject.cc" partName="finalProject.cc" path="C:/Users/ajs5433/Desktop/Program/finalProject/finalProject.cc" title="finalProject.cc" tooltip="finalProject/finalProject.cc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/finalProject/finalProject.cc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1413" selectionTopPixel="714"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="699" selectionTopPixel="357"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="magneticSensorAnalyzer.h" partName="magneticSensorAnalyzer.h" path="C:/Users/ajs5433/Desktop/Program/finalProject/magneticSensorAnalyzer.h" title="magneticSensorAnalyzer.h" tooltip="finalProject/magneticSensorAnalyzer.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/finalProject/magneticSensorAnalyzer.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="199" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="magneticSensorAnalyzer.cpp" partName="magneticSensorAnalyzer.cpp" path="C:/Users/ajs5433/Desktop/Program/finalProject/magneticSensorAnalyzer.cpp" title="magneticSensorAnalyzer.cpp" tooltip="finalProject/magneticSensorAnalyzer.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/finalProject/magneticSensorAnalyzer.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="98" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="191" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="display.cc" partName="display.cc" path="C:/Users/ajs5433/Desktop/Program/finalProject/display.cc" title="display.cc" tooltip="finalProject/display.cc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/finalProject/display.cc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="37" selectionOffset="436" selectionTopPixel="102"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="425" selectionTopPixel="186"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="display.h" partName="display.h" path="C:/Users/ajs5433/Desktop/Program/finalProject/display.h" title="display.h" tooltip="finalProject/display.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/finalProject/display.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="133" selectionTopPixel="118"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="buttonInputAnalyzer.cc" partName="buttonInputAnalyzer.cc" path="C:/Users/ajs5433/Desktop/Program/finalProject/buttonInputAnalyzer.cc" title="buttonInputAnalyzer.cc" tooltip="finalProject/buttonInputAnalyzer.cc" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="buttonInputAnalyzer.cc" partName="buttonInputAnalyzer.cc" path="C:/Users/ajs5433/Desktop/Program/finalProject/buttonInputAnalyzer.cc" title="buttonInputAnalyzer.cc" tooltip="finalProject/buttonInputAnalyzer.cc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/finalProject/buttonInputAnalyzer.cc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="270" selectionTopPixel="220"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="304" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="buttonInputAnalyzer.h" partName="buttonInputAnalyzer.h" path="C:/Users/ajs5433/Desktop/Program/finalProject/buttonInputAnalyzer.h" title="buttonInputAnalyzer.h" tooltip="finalProject/buttonInputAnalyzer.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/finalProject/buttonInputAnalyzer.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="174" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="421" selectionTopPixel="33"/>
 </editor>
 </editors>
 <views>
@@ -140,14 +140,15 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="798"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 </viewState>
 </view>
 </views>
@@ -555,162 +556,162 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/finalProject.cc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/magneticSensorAnalyzer.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/display.cc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/buttonInputAnalyzer.cc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/buttonInputAnalyzer.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/display.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/display.cc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/magneticSensorAnalyzer.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/magneticSensorAnalyzer.cpp"/>
 </editors>
-<item historyLabel="buttonInputAnalyzer.h" index="4">
-<position info="not_deleted" x="176" y="0"/>
+<item historyLabel="finalProject.cc" index="0">
+<position info="not_deleted" x="1017" y="16"/>
 </item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="275" y="0"/>
+<item historyLabel="magneticSensorAnalyzer.h" index="5">
+<position info="not_deleted" x="216" y="0"/>
 </item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="143" y="27"/>
+<item historyLabel="magneticSensorAnalyzer.cpp" index="6">
+<position info="not_deleted" x="191" y="0"/>
 </item>
-<item historyLabel="magneticSensorAnalyzer.cpp" index="1">
-<position info="not_deleted" x="98" y="0"/>
-</item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="143" y="27"/>
+<item historyLabel="magneticSensorAnalyzer.h" index="5">
+<position info="not_deleted" x="216" y="0"/>
 </item>
 <item historyLabel="finalProject.cc" index="0">
-<position info="not_deleted" x="651" y="0"/>
+<position info="not_deleted" x="1033" y="0"/>
 </item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="275" y="0"/>
-</item>
-<item historyLabel="display.h" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.h" index="4">
-<position info="not_deleted" x="176" y="0"/>
-</item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="143" y="27"/>
-</item>
-<item historyLabel="magneticSensorAnalyzer.cpp" index="1">
-<position info="not_deleted" x="98" y="0"/>
-</item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="143" y="27"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="275" y="0"/>
-</item>
-<item historyLabel="display.h" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="390" y="83"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="275" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="275" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="331" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="331" y="0"/>
-</item>
-<item historyLabel="display.h" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="390" y="83"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position/>
-</item>
-<item historyLabel="buttonInputAnalyzer.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position/>
-</item>
-<item historyLabel="buttonInputAnalyzer.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position/>
-</item>
-<item historyLabel="buttonInputAnalyzer.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position/>
-</item>
-<item historyLabel="buttonInputAnalyzer.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position/>
-</item>
-<item historyLabel="display.h" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="436" y="37"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="396" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="224" y="0"/>
-</item>
-<item historyLabel="display.h" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="magneticSensorAnalyzer.h" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="magneticSensorAnalyzer.cpp" index="1">
-<position info="not_deleted" x="98" y="0"/>
-</item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="436" y="37"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="224" y="0"/>
-</item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="270" y="0"/>
-</item>
-<item historyLabel="display.h" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="436" y="37"/>
-</item>
-<item historyLabel="magneticSensorAnalyzer.cpp" index="1">
-<position info="not_deleted" x="98" y="0"/>
-</item>
-<item historyLabel="magneticSensorAnalyzer.h" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="magneticSensorAnalyzer.cpp" index="6">
+<position info="not_deleted" x="191" y="0"/>
 </item>
 <item historyLabel="finalProject.cc" index="0">
-<position info="not_deleted" x="651" y="0"/>
+<position info="not_deleted" x="1066" y="0"/>
 </item>
-<item historyLabel="display.cc" index="2">
-<position info="not_deleted" x="436" y="37"/>
+<item historyLabel="magneticSensorAnalyzer.h" index="5">
+<position info="not_deleted" x="199" y="0"/>
 </item>
-<item historyLabel="buttonInputAnalyzer.cc" index="3">
-<position info="not_deleted" x="270" y="0"/>
+<item historyLabel="finalProject.cc" index="0">
+<position info="not_deleted" x="1007" y="0"/>
 </item>
-<item active="true" historyLabel="finalProject.cc" index="0">
-<position info="not_deleted" x="651" y="0"/>
+<item historyLabel="magneticSensorAnalyzer.h" index="5">
+<position info="not_deleted" x="199" y="0"/>
+</item>
+<item historyLabel="magneticSensorAnalyzer.cpp" index="6">
+<position info="not_deleted" x="191" y="0"/>
+</item>
+<item historyLabel="display.cc" index="4">
+<position info="not_deleted" x="326" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="display.h" index="3">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="display.cc" index="4">
+<position info="not_deleted" x="425" y="0"/>
+</item>
+<item historyLabel="display.h" index="3">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="308" y="4"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="469" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="433" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="469" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="433" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.h" index="2">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="286" y="0"/>
+</item>
+<item historyLabel="display.h" index="3">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="magneticSensorAnalyzer.h" index="5">
+<position info="not_deleted" x="199" y="0"/>
+</item>
+<item historyLabel="magneticSensorAnalyzer.cpp" index="6">
+<position info="not_deleted" x="191" y="0"/>
+</item>
+<item historyLabel="finalProject.cc" index="0">
+<position info="not_deleted" x="825" y="0"/>
+</item>
+<item historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="286" y="0"/>
+</item>
+<item historyLabel="magneticSensorAnalyzer.cpp" index="6">
+<position info="not_deleted" x="191" y="0"/>
+</item>
+<item historyLabel="magneticSensorAnalyzer.h" index="5">
+<position info="not_deleted" x="199" y="0"/>
+</item>
+<item historyLabel="finalProject.cc" index="0">
+<position info="not_deleted" x="699" y="0"/>
+</item>
+<item active="true" historyLabel="buttonInputAnalyzer.cc" index="1">
+<position info="not_deleted" x="286" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

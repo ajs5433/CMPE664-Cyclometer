@@ -15,22 +15,51 @@ void *ledPWM(void *object)
 	return NULL;
 }
 */
-display::display()
+display::display(int temp)
 {
-	status = displayClock;
+	std::cout<<"Display Connected!"<<std::endl;
 
-	std::cout<<"creating display"<<std::endl;
-	//frequency_thread = ThreadCreate(0, &ledPWM, NULL, NULL);
+	displayTime = temp;
+	displayMode = displayClockTime;
+	Display1 = 0;
+	Display2 = 0;
+	Display3 = 0;
+	Display4 = 0;
+
+	updateDisplays = ThreadCreate(0, &updateDisplays_thread, NULL, NULL);
+	displayMain = ThreadCreate(0, &displayMain_thread, NULL, NULL);
+
 }
 
-void display::setDisplayMode(){
+void * display::updateDisplays_thread(void *object){
 
+	return NULL;
 }
 
-void display::setSpeed(){
+void * display::displayMain_thread(void *object)
+{
+	while(true)
+	{
+		while(displayMode == displaySpeed)
+		{
 
+		}
+		while(displayMode == displayClockTime)
+		{
+
+		}
+	}
+
+	return NULL;
 }
 
-void display::activateDisplay(){
-	status = displayValues;
+void display::displaySpeedOn(){
+	displayMode = displaySpeed;
 }
+
+void display::displaySpeedOff(){
+	displayMode = displayClockTime;
+}
+
+
+

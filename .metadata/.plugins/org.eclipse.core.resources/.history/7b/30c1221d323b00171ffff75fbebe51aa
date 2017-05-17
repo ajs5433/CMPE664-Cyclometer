@@ -1,0 +1,33 @@
+/*
+ * display.h
+ *
+ *  Created on: May 12, 2017
+ *      Author: ajs5433
+ */
+#ifndef DISPLAY_H_
+#define DISPLAY_H_
+
+#define displayValues	0
+#define displayClock	1
+#define Anode0			6
+#define Anode1			8
+#define Anode2			10
+#define Anode3			12
+
+class display
+{
+	int status;
+
+	//Threads
+	int frequency_thread;
+
+public:
+		display();
+
+		void *ledPWM(void *object);
+		void setDisplayMode();
+		void setSpeed();
+		void activateDisplay();
+		void updateEightSegmentD(int displayID, int value);
+};
+#endif /* DISPLAY_H_ */
