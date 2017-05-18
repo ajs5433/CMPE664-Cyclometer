@@ -5,9 +5,8 @@
  *      Author: ajs5433
  */
 
-#include <iostream>
-#include <sys/neutrino.h>
 #include "display.h"
+
 /*
 void *ledPWM(void *object)
 {
@@ -15,28 +14,35 @@ void *ledPWM(void *object)
 	return NULL;
 }
 */
-display::display(int temp)
+display::display()
 {
-	std::cout<<"Display Connected!"<<std::endl;
-
-	displayTime = temp;
-	displayMode = displayClockTime;
-	Display1 = 0;
-	Display2 = 0;
-	Display3 = 0;
-	Display4 = 0;
-
-	updateDisplays = ThreadCreate(0, &updateDisplays_thread, NULL, NULL);
-	displayMain = ThreadCreate(0, &displayMain_thread, NULL, NULL);
 
 }
 
-void * display::updateDisplays_thread(void *object){
+void display::init(int dtime)
+{
+		std::cout<<"Display Connected!"<<std::endl;
 
-	return NULL;
+		displayTime = dtime;
+		displayMode = displayClockTime;
+		Display1 = 0;
+		Display2 = 0;
+		Display3 = 0;
+		Display4 = 0;
+
+		pthread_create(&updateDisplays, NULL, updateDisplays_threadCreate, (void *)this);
 }
 
-void * display::displayMain_thread(void *object)
+
+void * display::updateDisplays_threadCreate(void *thread){
+	/*display *self = static_cast<display *>(thread);
+	self->updateDisplayRun();*/
+
+	return ((display*)thread)->updateDisplayRun( );
+}
+
+/*
+void * display:displayMain_threadCreate(void *object)
 {
 	while(true)
 	{
@@ -52,14 +58,23 @@ void * display::displayMain_thread(void *object)
 
 	return NULL;
 }
-
+*/
 void display::displaySpeedOn(){
 	displayMode = displaySpeed;
 }
 
 void display::displaySpeedOff(){
 	displayMode = displayClockTime;
+}/*
+void myThreads::updateDisplayRun()
+{
+	while(true)
+	{
+		std::cout<<"this is a test"<<std::endl;
+		sleep(1);
+	}
 }
 
 
 
+*/

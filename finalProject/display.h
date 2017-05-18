@@ -7,6 +7,11 @@
 #ifndef DISPLAY_H_
 #define DISPLAY_H_
 
+#include <pthread.h>
+#include <iostream>
+#include <unistd.h>
+
+
 /*Defines shared between classes*/
 #define LOW 			0x00
 #define HIGH 			0xFF
@@ -46,14 +51,19 @@ class display
 	int Display4;
 
 	/*Threads variables*/
-	int updateDisplays;
-	int displayMain;
+	pthread_t updateDisplays;
+	pthread_t displayMain;
 
 public:
-		display(int temp);
+		display();
 
-		static void *updateDisplays_thread(void *object);
-		static void *displayMain_thread(void *object);
+		static void *updateDisplays_threadCreate(void *object);
+		static void *displayMain_threadCreate(void *object);
+
+		virtual void updateDisplayRun()=0;
+
+		//static void *updateDisplays_threadRun(void *object);
+		//static void *displayMain_threadRun(void *object);
 
 		//Internal Methods
 		//void setSpeed();
@@ -62,6 +72,23 @@ public:
 		//External Methods
 		void displaySpeedOn();
 		void displaySpeedOff();
+		void init(int dtime);
+
+		//void updateDisplayRun();
+		void displayMainRun();
+
 
 };
+
+class myThreads: public display{
+public:
+	virtual void updateDisplayRun(){
+		while(true)
+		{
+			std::cout<<"this is a test"<<std::endl;
+			sleep(1);
+		}
+	}
+};
+
 #endif /* DISPLAY_H_ */

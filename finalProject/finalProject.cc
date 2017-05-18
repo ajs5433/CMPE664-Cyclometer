@@ -30,7 +30,7 @@
 #define measureOff	2
 
 magneticSensorAnalyzer mySensor;
-display myDisplay(1000);
+display myDisplay;
 buttonInputAnalyzer myButtons;
 
 void initialization();
@@ -63,9 +63,9 @@ int main(int argc, char *argv[]) {
 	//mySensor = new magneticSensorAnalyzer();
 
 	int current_state = fullReset;
+	myDisplay.init(100);
 
-
-
+	while(true);
 
 	while(true)
 	{
